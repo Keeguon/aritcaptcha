@@ -61,7 +61,7 @@ module Aritcaptcha
  
          title.annotate(image, 5, 5, 12, 7, equation + " =") do
            self.fill        = "#333"
-           self.font        = Rails.root + "/fonts/Clarenton LT Bold.ttf"
+           self.font        = "#{Rails.root}/fonts/Clarenton LT Bold.ttf"
            self.font_family = "Clarenton LT Bold"
            self.font_weight = Magick::BoldWeight
            self.gravity     = Magick::NorthWestGravity

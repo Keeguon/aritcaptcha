@@ -4,11 +4,11 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{aritcaptcha}
-  s.version = "2.0.5"
+  s.name = %q{aritcaptcha-keeguon}
+  s.version = "2.0.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Guilherme Nascimento"]
+  s.authors = ["Guilherme Nascimento", "Felix Bellanger"]
   s.date = %q{2011-05-25}
   s.description = %q{Arithmetic Captcha}
   s.email = %q{guilherme.ruby@gmail.com}
